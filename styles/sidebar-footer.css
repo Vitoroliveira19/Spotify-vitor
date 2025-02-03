@@ -1,0 +1,257 @@
+body {
+    background-color: rgb(22, 40, 201);
+    font-family: var(--font-dm-sans);
+    
+}
+
+h1 {
+    color: #9dc3e2;
+}
+
+body{
+    background-image: url("/src/icons/neymarsantos.webp"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+}
+
+
+.sidebar_navigation {
+    background-color: #214eca;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo {
+    background: #214eca;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #dfe6eb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+ 
+}
+
+.library {
+    background-color: #214eca;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    padding: 4px 8px;
+    color: #409ce7;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #dfe6eb;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #214eca;
+    color: #e4e6e7;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 20px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #e9ebee;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist .section-playlist__button {
+    background-color: #eeeaed;
+    color: #214eca;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    width: 113px;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+  
+}
+
+.sidebar .cookies a {
+    color: #e0e3eb;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+    color: #dfdfdf;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+.footer{
+   position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: linear-gradient(to left, #1c0097, #353590, #57579e);
+    margin-top: 45%;
+    background-color: #fff;
+    width: 100%;
+    height: 85px;
+}
+
+.footercontent{
+    width: 80%;
+    height: 100%;
+}
+
+.footercontenttitle{
+    width: 30%;
+    height: 50%;
+    margin: 0px 25px;
+}
+
+.footercontenttitlebutton{
+    background-color: transparent;
+    padding: 10px 0px 10px 0px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footercontentsubtitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.footercontentsubtitle span{
+    padding: 0px 0px 0px 25px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer_subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.footer_subscribe-button{
+    width: 30%;
+    height: 50%;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_subscribebutton:hover{
+    opacity: 0.7;
+}   
+
